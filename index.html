@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="gros_titre">découverte du dom HTML</h1>
+    <p class='para '>du texte et <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">un lien</a>
+    </p>
+    <p class="para">un deuxième paragraphe</p>
+    <script>
+        var titre = document.getElementById('gros_titre');
+        var parent = document.body;
+        parent.removeChild(titre)
+    </script>
+</body>
+
+</html>
